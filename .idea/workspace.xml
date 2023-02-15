@@ -4,11 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="009d22d8-1850-4f2e-8e1a-504e7b2e82cf" name="Changes" comment="test commit 3" />
+    <list default="true" id="009d22d8-1850-4f2e-8e1a-504e7b2e82cf" name="Changes" comment="added data types">
+      <change afterPath="$PROJECT_DIR$/src/FileManager.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_types/Coordinates.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_types/Country.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_types/MusicBand.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_types/Person.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_types/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_types/Color.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_types/Coordinates.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_types/Country.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_types/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_types/Location.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_types/MusicBand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_types/MusicGenre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_types/MusicGenre.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_types/Person.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -41,6 +62,12 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\фвьшт\IdeaProjects\LaboratoryWork5_kotlin\src\data_types" />
+      <recent name="C:\Users\фвьшт\IdeaProjects\LaboratoryWork5_kotlin\src" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
@@ -75,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676457204122</updated>
       <workItem from="1676457206889" duration="1120000" />
-      <workItem from="1676459852466" duration="809000" />
+      <workItem from="1676459852466" duration="11125000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1676459300427</created>
@@ -98,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676460380239</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added data types">
+      <created>1676460994599</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676460994599</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +180,7 @@
     <MESSAGE value="test commit" />
     <MESSAGE value="test commit 2" />
     <MESSAGE value="test commit 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="test commit 3" />
+    <MESSAGE value="added data types" />
+    <option name="LAST_COMMIT_MESSAGE" value="added data types" />
   </component>
 </project>
