@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="009d22d8-1850-4f2e-8e1a-504e7b2e82cf" name="Changes" comment="add scanner">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Handler.kt" afterDir="false" />
+    <list default="true" id="009d22d8-1850-4f2e-8e1a-504e7b2e82cf" name="Changes" comment="test for merge">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -84,6 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676457204122</updated>
       <workItem from="1676457206889" duration="4438000" />
+      <workItem from="1676490318349" duration="618000" />
     </task>
     <task id="LOCAL-00001" summary="add scanner">
       <created>1676458602062</created>
@@ -123,6 +123,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add scanner" />
-    <option name="LAST_COMMIT_MESSAGE" value="add scanner" />
+    <MESSAGE value="test for merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="test for merge" />
   </component>
 </project>
