@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="009d22d8-1850-4f2e-8e1a-504e7b2e82cf" name="Changes" comment="added data types">
+    <list default="true" id="009d22d8-1850-4f2e-8e1a-504e7b2e82cf" name="Changes" comment="data types have been rewritten to Kotlin">
       <change afterPath="$PROJECT_DIR$/src/FileManager.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_types/Coordinates.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_types/Country.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_types/MusicBand.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_types/Person.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_types/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_types/Color.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_types/Coordinates.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_types/Country.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_types/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_types/Location.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_types/MusicBand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_types/MusicGenre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_types/MusicGenre.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_types/Person.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,30 +37,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\фвьшт\IdeaProjects\LaboratoryWork5_kotlin\src\data_types" />
       <recent name="C:\Users\фвьшт\IdeaProjects\LaboratoryWork5_kotlin\src" />
+      <recent name="C:\Users\фвьшт\IdeaProjects\LaboratoryWork5_kotlin\src\data_types" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="untitled" />
+      <shortenClasspath name="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,7 +92,10 @@
       <option name="presentableId" value="Default" />
       <updated>1676457204122</updated>
       <workItem from="1676457206889" duration="1120000" />
-      <workItem from="1676459852466" duration="11125000" />
+      <workItem from="1676459852466" duration="13986000" />
+      <workItem from="1676545805458" duration="311000" />
+      <workItem from="1676546132239" duration="818000" />
+      <workItem from="1677049657445" duration="709000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1676459300427</created>
@@ -132,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676460994599</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="data types have been rewritten to Kotlin">
+      <created>1676491711175</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676491711175</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +181,7 @@
     <MESSAGE value="test commit 2" />
     <MESSAGE value="test commit 3" />
     <MESSAGE value="added data types" />
-    <option name="LAST_COMMIT_MESSAGE" value="added data types" />
+    <MESSAGE value="data types have been rewritten to Kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="data types have been rewritten to Kotlin" />
   </component>
 </project>
